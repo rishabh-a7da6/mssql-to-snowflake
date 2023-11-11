@@ -1,0 +1,15 @@
+name: mssql-env
+channels:
+  - default
+
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+    - notebook
+    - snowflake-connector-python
+    - snowflake-snowpark-python
+    - snowflake-snowpark-python[pandas]
+    - pymssql
+    - pyodbc
+    - sqlalchemy
